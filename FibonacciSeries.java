@@ -13,11 +13,12 @@ public class FibonacciSeries {
 		int UserNumber = scanner.nextInt();
 		while (count < UserNumber) {
 			System.out.print("Fibonacci Number:" + count + " - > ");
+			System.out.println(FirstNumber + " ");
 			Result = FirstNumber + SecondNumber;
 			FirstNumber = SecondNumber;
 			SecondNumber = Result;
 			count++;
-			System.out.println(FirstNumber + " ");
+			
 		}
 	}
 }
